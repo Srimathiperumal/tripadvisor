@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"Roboto Condensed", sans-serif;
+}
+.navbar{
+    padding: 20px;
+    margin-left: 30px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+.navbar__s1{
+    color: black;
+}
+.navbar__s2{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.navbar__s3 img{
+    position: absolute;
+    justify-content: end;
+}
+.navbar__s3 p{
+    margin-top: 10px;
+}
+.navbar__s3__button{
+    background-color: black;
+    color: white;
+    border: solid black 10px;
+    border-radius: 50px;
+    display: inline-flex;
+    font-size: 16px;
+}
+.center__title h1
+{
+
+text-align: center;
+font-size: 60px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+}
+.search{
+    padding: 10px;
+    border: solid #c0b8b8 1px;
+    border-radius: 50px;
+width: 50%;
+height: 30px;
+display: flex;
+gap: 10px;
+align-items: center;
+margin-left: 25%;
+
+}
+.search input{
+    border: transparent;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    
+}
+.search button{
+    background-color: #34E0A1;
+    border: solid #34E0A1 1px ;
+    width: 125px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.center_image_box{
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.center__image{
+    position: relative;
+
+    height: 450px;
+    width: 85%;
+    margin: auto;
+    border-radius: 20px ;
+    margin-top: 50px  ;
+    background-color:#D8D4FB;
+    align-items:center;
+   
+}
+.center__image img{
+
+    margin-left: 600px;
+    margin-top: 100px;
+    height: 350px;
+    width: 300px;
+
+}
+.center_image_box{
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.center__image{
+    position: relative;
+
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px ;
+    margin-top: 50px  ;
+    background-color:#D8D4FB;
+    align-items:center;
+   
+}
+.center__image img{
+position: relative;
+    margin-left: 500px;
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 150px;
+}
+.center__image__text{
+    
+    width: 350px;
+    left: 100px;
+
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.center__image__text,.center__image__text h1,
+.center__image__text h4,
+.center__image__text h5,.center__image__text h5
+{
+    color: #301D49;
+}
+
+
+.center__image__text_h6{
+
+    color: #5f5c70;
+    padding: 10px;
+    border-radius: 10px     ;
+}
+.center__image__text h1{
+    font-size: 60px;
+}
+.center__image__text h4{
+    font-size: 25px;
+}
+.center__image__text h5{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #301D49;
+    color: white;
+}
+.center__image__text h5 img{
+    padding: 10px;
+    margin-left: 50px;
+    left: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.award__winning{
+    flex-grow: 1;
+    flex-basis: 20%;
+  
+  }
+  .award__winning-title{
+  padding: 20px;    
+  }
+  .award__winning-title h4{
+      font-weight: 300;
+  }
+  .award__winning__container{
+      flex-grow: 1;
+      width: fit-content;
+      position: relative;
+     display: flex;
+     gap: 35px;
+     justify-content: space-between;
+      margin-top: 10px;
+      flex-basis: 100%
+      
+     }
+  .title__card img{
+      width: 240.66px;
+      height: 240.66px;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      
+      
+      
+  }
+  .title__card{
+      flex-basis: 20%;
+  }
+  .title__card h2{
+      color: white;
+      max-width: 200px;
+      margin-left: 10px;
+      margin-bottom: 3px;
+      position: absolute;
+      bottom: 20px;
+      word-wrap: break-word;
+     font-weight: 400px;
+  }
+  .title__card__t1{
+      bottom: 10px;
+  }
+  .title__card p{
+      bottom: 10px;
+  }
+  .flutter{
+      background-color: #FAF1ED;
+      display: flex;
+      position: relative;
+      border-radius: 15px;
+      gap: 10px;
+      padding: 10px;
+  }
+  .flutter{
+      font-weight: lighter;
+      position: relative;
+      
+  }
+  .flutter1{
+    gap: 10px;
+    margin-top: 10ppx;
+  }
+  
+  .flutter__followus{
+      position: absolute;
+      top: 150px;
+      right: 80px;
+  }
+  .flutter p:hover{
+      border-bottom: 1px black solid;
+      width: fit-content;
+  }
+  @media screen and (max-width:600px){
+      body{
+          font-size: 10px;
+      }
+  }
+  /* Add this CSS for responsive layout */
+  @media only screen and (max-width: 600px) {
+      .award__winning {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      .award__winning-title {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+      .award__winning__container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .title__card {
+          width: 90%; /* Adjust the width as needed */
+          margin-bottom: 20px;
+      }
+  }
+  /* Add CSS for responsiveness */
+  @media only screen and (max-width: 600px) {
+      /* Adjust styles for smaller screens */
+      .center__title h1 {
+          font-size: 24px; 
+      }
+      .search__bar {
+          width: 100%; 
+      }
+      .title__card img {
+          width: 100%; 
+      }
+  
